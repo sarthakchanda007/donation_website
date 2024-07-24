@@ -101,3 +101,20 @@ footer{
 .image{
   background-color: rgb(233, 224, 224);
 }
+.causes h2{
+  text-align:center;
+  font-weight:bold;
+  margin-top:5px;
+  margin-bottom:2rem;
+  color:black;
+}
+.causes .col-6{
+  margin-bottom:2rem;
+}
+.btn-dark:hover{
+background-color: darkgrey;
+color:black;
+}
+.return a{
+  margin:2rem;
+}
