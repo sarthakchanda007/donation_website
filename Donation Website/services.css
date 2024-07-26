@@ -1,0 +1,20 @@
+.grey{
+    background-color: rgb(214, 213, 213);
+    padding:30px;
+    font-size:23px;
+}
+.grey img{
+    padding-right:150px;
+}
+.white{
+    background-color: rgb(255, 255, 255);
+   
+    font-size:23px;
+}
+.white img{
+ padding-left:150px;
+ padding-bottom:30px;
+}
+ol{
+    list-style: none;
+}

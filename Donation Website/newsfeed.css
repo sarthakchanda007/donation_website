@@ -1,0 +1,29 @@
+.war{
+    background-color: rgb(207, 206, 206);
+}
+.war img{
+    padding-left:10em;
+    padding-top:2em;
+    padding-bottom:3em;
+    border-radius: 7px;
+    margin-top:25px;
+}
+.war h2{
+   margin:20px;
+}
+.quota {
+    background-color:beige;
+}
+.quota h2{
+    margin:20px;
+}
+.quota p{
+    margin:20px;
+}
+.quota img{
+    padding-left:10em;
+    padding-top:2em;
+    padding-bottom:3em;
+    border-radius: 7px;
+    margin-top:25px;
+}

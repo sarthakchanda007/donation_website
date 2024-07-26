@@ -1,0 +1,10 @@
+body{
+    background-color:beige;
+}
+.col-4{
+   padding-top:3em;
+   padding-left:5em;
+}
+.col-4 .card{
+  box-shadow:-4px -10px 33px 0px rgba(0,0,0,0.75);
+}

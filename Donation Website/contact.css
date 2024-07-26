@@ -1,0 +1,22 @@
+.fet{
+    margin-left: 10em;
+    margin-right: 10em;
+    
+}
+
+.farm{
+    margin-left: 10em;
+    margin-right: 10em;
+}
+ 
+.pl{
+    font-size: 20px;
+    margin-left: 8em;
+    padding-top:2em;
+}
+.chd{
+    background-color: rgb(211, 208, 205);
+}
+.button a:hover{
+    color: black;
+}

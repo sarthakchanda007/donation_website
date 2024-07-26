@@ -1,0 +1,28 @@
+.user .main {
+    font-size:20px;
+    font-weight:bold;
+    color:#000000;
+}
+.user{
+    padding:2em;
+    background-color: rgb(218, 218, 216);
+}
+.debraj{
+    padding-left:16em;
+    
+}
+.card{
+    box-shadow: 5px 3px 45px 0px rgba(0,0,0,0.75);
+}
+.user1{
+   background-color: beige;
+   padding:2em;
+}
+.user1 .main {
+    font-size:20px;
+    font-weight:bold;
+    color:#000000;
+}
+.card text{
+    font-size:30px;
+}
