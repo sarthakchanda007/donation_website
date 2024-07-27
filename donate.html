@@ -27,39 +27,39 @@
 
     <div class="container">
         <!--Form-->
-        <form action="submit_donation.php" method="post">
+        <form action="https://donate.stripe.com/test_8wM01z3ha3h35Lq6oo">
             <div class="head form text-center">
                 <h2>Donation Form</h2>
                 <div class="mb-3">
                     <label for="donorName" class="form-label">Name</label>
-                    <input type="text" class="form-control" name="donorName" id="donorName" placeholder="Name" required>
+                    <input type="text" class="form-control" id="donorName" placeholder="Name" required>
                 </div>
                 <div class="mb-3">
                     <label for="donorEmail" class="form-label">Email address</label>
-                    <input type="email" class="form-control" name="donorEmail" id="Email" placeholder="name@example.com" required>
+                    <input type="email" class="form-control" id="Email" placeholder="name@example.com" required>
                 </div>
                 <div class="mb-3">
                     <label for="donorPhone" class="form-label">Phone Number</label>
-                    <input type="number" class="form-control" name="donorPhone" id="Phone" placeholder="Phone Number" required>
+                    <input type="number" class="form-control" id="Phone" placeholder="Phone Number" required>
                 </div>
                 <div class="mb-3">
-                  <label for="Amount" class="form-label">Amount</label>
-                  <input type="number" class="form-control" name="Amount" id="Amount" placeholder="Amount(0.50$ to 10000$)" required>
+                  <label for="donorPhone" class="form-label">Amount</label>
+                  <input type="number" class="form-control" id="Amount" placeholder="Amount(0.50$ to 10000$)" required>
               </div>
                 <div class="mb-3">
-                    <label for="Sector" class="form-label">Select Sector</label>
-                    <select class="form-select" name="Sector" id="Sector" aria-label="Default select example">
+                    <label for="donationSector" class="form-label">Select Sector</label>
+                    <select class="form-select" id="Sector" aria-label="Default select example">
                         <option selected>Russia-Ukraine War Relief Fund</option>
-                        <option value="Palestine-Israel War Relief Fund">Palestine-Israel War Relief Fund</option>
-                        <option value="Bangladesh Student Quota Relief Fund">Bangladesh Student Quota Relief Fund</option>
-                        <option value="Kolkata Train Accident">Kolkata Train Accident</option>
-                        <option value="Afghanistan Earthquake Relief Fund">Afghanistan Earthquake Relief Fund</option>
-                        <option value="India Flood Relief Fund">India Flood Relief Fund</option>
+                        <option value="1">Palestine-Israel War Relief Fund</option>
+                        <option value="2">Bangladesh Student Quota Relief Fund</option>
+                        <option value="3">Kolkata Train Accident</option>
+                        <option value="4">Afghanistan Earthquake Relief Fund</option>
+                        <option value="5">India Flood Relief Fund</option>
                     </select>
                 </div>
                 <div class="mb-3">
-                    <label for="Reason" class="form-label">Briefly explain to us your reason to donate</label>
-                    <textarea class="form-control" name="Reason" id="Reason" rows="3" required></textarea>
+                    <label for="donationReason" class="form-label">Briefly explain to us your reason to donate</label>
+                    <textarea class="form-control" id="Reason" rows="3" required></textarea>
                 </div>
                 <div class="button">
                     <button type="submit" class="btn btn-danger">Submit</button>
